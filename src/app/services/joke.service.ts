@@ -12,6 +12,8 @@ export class JokeService {
   getJoke(): Observable<Joke> {
     return this.http.get<Joke>('https://icanhazdadjoke.com/', {
       headers: {
+        'User-Agent':
+          'Dad Jokes Project (https://github.com/Starosti/dadJokes)',
         Accept: 'application/json',
       },
     });

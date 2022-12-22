@@ -1,7 +1,10 @@
 # Dad Jokes
 
 My (almost) first Angular project! A really basic website that calls to icanhazdadjoke.com API and returns a joke with Angular's HttpClient.
-This is also the first time that I used SCSS, it's pretty cool!
+
+This is also the first time that I used SASS/SCSS, it's pretty cool!
+
+If you clone this project, do an `npm install` before running it, to make sure you have the dependencies.
 
 ## Development server
 
