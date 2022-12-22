@@ -1,0 +1,32 @@
+@import "../../../vars.scss";
+#jokeContainer {
+  padding: 2em;
+  margin: 0 25%;
+  background-color: $lightColor;
+  border-radius: 0.5em;
+  color: $accentColor;
+}
+#joke {
+  font-size: x-large;
+  font-weight: 500;
+  padding: 0.3em;
+}
+#newJokeBtn {
+  color: $lightColor !important;
+  background-color: $btnBackground;
+  border: 2px solid;
+  border-color: $accentColor;
+  &:hover {
+    background-color: $btnBackgroundHover;
+  }
+  &:active {
+    background-color: $btnBackgroundActive;
+  }
+}
+#spinner {
+  color: $accentColor;
+}
+
+.hidden {
+  display: none;
+}

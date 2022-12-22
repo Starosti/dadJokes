@@ -1,0 +1,14 @@
+<div id="jokeContainer" class="centerFlex underShadow">
+  <div id="joke">{{ joke.joke }}</div>
+  <div id="newJokeContainer">
+    <button id="newJokeBtn" (click)="newJokeBtnClick($event)">
+      Get a new joke
+    </button>
+    <fa-icon
+      id="spinner"
+      class="hidden"
+      [icon]="spinnerIcon"
+      [spin]="true"
+    ></fa-icon>
+  </div>
+</div>

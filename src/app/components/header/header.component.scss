@@ -1,0 +1,13 @@
+@import "../../../vars.scss";
+
+#headerContainer {
+  width: 100vw;
+  background-color: $headerBackground;
+  color: $lightColor;
+}
+#headerTitle {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  padding: 0.5em;
+}

@@ -1,0 +1,7 @@
+@import "../../../vars.scss";
+#footerContainer {
+  background-color: $footerBackground;
+  color: $lightColor;
+  padding: $footerPadding;
+  font-weight: 300;
+}

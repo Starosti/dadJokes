@@ -1,0 +1,11 @@
+@import "../vars.scss";
+#mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+app-home {
+  flex: 1;
+  background-color: $accentColor;
+}
