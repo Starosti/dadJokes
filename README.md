@@ -1,10 +1,11 @@
 # Dad Jokes
-![Screenshot 2023-01-24 at 01-00-59 Dad Jokes](https://user-images.githubusercontent.com/46249941/214160411-b50395ea-268e-4c8d-908e-105cc2c4c0dc.png)
-![Screenshot 2023-01-24 at 01-04-40 Dad Jokes](https://user-images.githubusercontent.com/46249941/214160425-203d88a4-7462-4be8-a1b4-02b1372c32ca.png)
 
 My (almost) first Angular project! A really basic website that calls to icanhazdadjoke.com API and returns a joke with Angular's HttpClient.
 
 This is also the first time that I used SASS/SCSS, it's pretty cool!
+
+![Screenshot 2023-01-24 at 01-00-59 Dad Jokes](https://user-images.githubusercontent.com/46249941/214160411-b50395ea-268e-4c8d-908e-105cc2c4c0dc.png)
+![Screenshot 2023-01-24 at 01-04-40 Dad Jokes](https://user-images.githubusercontent.com/46249941/214160425-203d88a4-7462-4be8-a1b4-02b1372c32ca.png)
 
 If you clone this project, do an `npm install` before running it, to make sure you have the dependencies.
 
